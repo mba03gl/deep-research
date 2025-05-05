@@ -141,7 +141,7 @@ const formSchema = z.object({
   bochaApiProxy: z.string().optional(),
   searxngApiProxy: z.string().optional(),
   searxngScope: z.string().optional(),
-  parallelSearch: z.number().min(1).max(5),
+  parallelSearch: z.number().min(1).max(50),
   searchMaxResult: z.number().min(1).max(10),
   language: z.string().optional(),
   theme: z.string().optional(),
