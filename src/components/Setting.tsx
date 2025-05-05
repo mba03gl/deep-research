@@ -2714,7 +2714,7 @@ function Setting({ open, onClose }: SettingProps) {
                           <Slider
                             className="flex-1"
                             value={[field.value]}
-                            max={5}
+                            max={50}
                             min={1}
                             step={1}
                             disabled={form.getValues("enableSearch") === "0"}
